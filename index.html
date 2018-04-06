@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<head>
+	<title>Fii parte la schimbare</title>
+	<link href="./index.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+<header><h1 id="title">FII PARTE LA SCHIMBARE</h1>
+	<h2>INTRODUCERE</h2>
+</header>
+
+<div id="navbar">
+    <a href="#intro">Intro</a>
+	<a href="rezolvari.php">REZOLVARI</a>
+	<a href="probleme.html">PROBLEME</a>
+	<a href="linkuri.html">Linkuri</a>
+	<a href="centre.php">Centre de reciclare</a>
+</div>
+<script>
+	window.onscroll = function() {myFunction()};
+	var navbar = document.getElementById("navbar");
+	var sticky = navbar.offsetTop;
+
+	function myFunction() {
+	  if (window.pageYOffset >= sticky) {
+	    navbar.classList.add("sticky")
+	  } else {
+	    navbar.classList.remove("sticky");
+	  }
+	}
+</script>
+
+	<div id="intro" class="first">
+		<h1>INTRO</h1>
+		<h4>Mediul nostru se schimba constant. Insa la fel si nevoia de a deveni din ce in ce mai constienti despre problemele ce se invart in jurul acestuia. Datorita unui influx masiv de dezastre naturale, perioade de racire si incalzire, vreme din ce in ce mai variabila si multe altele, oamenii trebuie sa fie constienti despre problemele cu care planeta noastra se confrunta.</h4>
+		<h4>Incalzirea globala a devenit un fapt incontestabil legat de modul nostru curent de a trai. Planeta noastra se incalzeste si noi suntem parte a acestei probleme. Totusi, aceasta nu este singura problema a planetei despre care sa ne ingrijoram. Peste tot in lume oamenii se confrunta cu o gramada de probleme legate de mediu in fiecare zi. Unele dintre ele sunt mici si afecteaza doar cateva ecosisteme, insa unele schimba drastic peisajul cu care suntem familiarizati.</h4>
+		<h4>Planeta noastra se afla la marginea unei crize ecologice severe. Problemele legate de mediu ne fac vulnerabili in fata dezastrelor atat acum, cat si in viitor. Ne aflam intr-o stare de urgenta planetara si daca nu tratam aceste probleme cu seriozitate vom fi condamnati la un sfarsit tragic. Problemele cu care planeta noastra se confrunta au nevoie de atentie urgenta.</h4>
+	</div>
+	
+	<div class="noice">
+		<ul class="button">
+			<a href="probleme.html" class="button1">PROBLEME</a>
+			<a href="rezolvari.php" class="button2">REZOLVARI</a>
+		</ul>
+	</div>
+
+
+</body>

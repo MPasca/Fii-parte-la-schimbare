@@ -1,0 +1,178 @@
+.first{
+	margin-top: 50px;
+	color: white;
+	padding:10px;
+	padding-top:30px;
+	background-image: url("http://images.cdn.starpulse.com/7776865/980x.jpg");
+	background-size: cover;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-bottom: 10px;
+}
+
+.noice{
+	color: white;
+	padding:10px;
+	padding-top:30px;
+	background-image: url("http://images.cdn.starpulse.com/7776865/980x.jpg");
+	background-size: cover;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-bottom: 10px;
+}
+
+header {
+	background-image: url("http://images.cdn.starpulse.com/7776865/980x.jpg");
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-top: 70px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+ul{
+	list-style-type: square;
+}
+
+img{
+	width:300px;
+	height:400px;
+}
+
+li{
+	margin-right: 30px;
+	color: white;
+	margin-left: 30px;
+}
+
+
+a{
+	font-size: 19px;
+	color: #5F7963;
+	text-decoration: none;
+}
+
+body{
+
+	font-family: "Kingthings Trypewriter 2";
+	background-color: #708f75;
+	text-align: justify;
+}
+
+p{
+
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+h1{
+	text-shadow: 2px 2px black;
+	text-align: center;
+	color: white;
+}
+
+h2{
+	text-shadow: 2px 2px black;
+	margin-right: 30px;
+	color: #bdc289;
+	margin-left: 30px;
+}
+
+h3 {
+	margin-right: 20px;
+	margin-left: 30px;
+}
+
+h4{
+	text-shadow: 2px 2px black;
+	margin-right: 20px;
+	margin-left: 30px;
+}
+
+<--------------------Navbar-------------------------;
+
+#navbar {
+	overflow: hidden;
+	background-color: #5F7963;
+}
+
+#navbar a {
+	border-left: 2px solid #708f75;
+	border-top: 1px solid #5F7963;
+	float: left;
+	display: block;
+  	color: #2d392f;
+  	background-color: #5F7963;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 14px;
+}
+
+#navbar a:hover {
+  background-color: #708f75;
+  color: #2d392f;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.button1 {
+	margin-left: 100px;
+    background-image: url("http://cdn.sci-news.com/images/enlarge4/image_5663e-Air-Pollution.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 200px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+}
+
+.button2 {
+	margin-left: 250px;
+	margin-right: 100px;
+    background-image: url("rezolvari.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: black;
+    padding: 200px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+}
+
+.button3 {
+	margin-left: 300px;
+    background-image: url("http://www.brasovultau.ro/images/stiri/harta-reciclarii-brasov-afla-unde-se-afla-in-cartierul-tau-centrul-de-colectare-0.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: black;
+    text-shadow: 2px 2px white;
+    padding: 200px 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+}
